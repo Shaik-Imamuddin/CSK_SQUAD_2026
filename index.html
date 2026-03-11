@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSK Squad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="heading">CSK Squad 2026</h1>
+
+    <h2 class="category">Wicket Keepers</h2>
+    <div class="players" id="wicketkeepers"></div>
+
+    <h2 class="category">Batsmen</h2>
+    <div class="players" id="batsmen"></div>
+
+    <h2 class="category">All Rounders</h2>
+    <div class="players" id="allrounders"></div>
+
+    <h2 class="category">Bowlers</h2>
+    <div class="players" id="bowlers"></div>
+
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+
+        <div class="popup-card">
+
+            <div class="close" onclick="closePopup()">CLOSE</div>
+            <img id="popupImg">
+        
+            <div class="popup-content">
+                <div class="popupName" id="popupName"></div>
+
+                <div class="popupRow">
+                    <div class="label">DOB :</div>
+                    <div id="popupDOB"></div>
+                </div>
+
+                <div class="popupRow">
+                    <div class="label">Role :</div>
+                    <div id="popupRole"></div>
+                </div>
+
+                <div class="popupRow">
+                    <div class="label" id="styleLabel"></div>
+                    <div id="styleValue"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
