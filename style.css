@@ -5,12 +5,14 @@ body{
     color: #0033a0;
 }
 
+
 .heading{
     text-align: center;
     margin: 40px;
     font-size: 35px;
     color: #0033a0;
 }
+
 
 .category{
     background: #0033a0;
@@ -22,6 +24,7 @@ body{
     font-size: 22px;
     letter-spacing: 1px;
 }
+
 
 .players{
     display: flex;
